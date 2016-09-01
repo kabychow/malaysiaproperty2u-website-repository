@@ -60,7 +60,7 @@ hr {
 }
 
 .section-title {
-  padding-bottom: 32px;
+	padding-bottom: 0px;
 }
 
 .medium-icon {
@@ -231,8 +231,8 @@ navigation section
     font-weight: 500;
     }
 .custom-navbar .nav li a:hover {
-  	background: transparent;
-   color: #eeeeee;
+	background: transparent;
+	color: #41D3E0;
 }
 .custom-navbar .nav > li > a:focus {
   background-color: transparent;
@@ -470,10 +470,13 @@ properties section
 }
 /* FILTER CSS */
 .filter-wrapper {
-    width: 100%;
-    margin: 40px 0 24px 0;
-    overflow: hidden;
-    text-align: center;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 24px;
+	overflow: hidden;
+	text-align: center;
 }
 .filter-wrapper li {
     display: inline-block;
