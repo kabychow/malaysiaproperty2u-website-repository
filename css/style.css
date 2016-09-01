@@ -284,7 +284,7 @@ home section
   font-size: 40px;
 }
 #home h3 {
-  font-size: 14px;
+	font-size: 14px;
 }
 #home hr {
   width: 240px;
@@ -703,9 +703,9 @@ media quires for mobile
     padding-bottom: 320px;
   }
   #home h1 {
-    font-size: 22px;
+	font-size: 24px;
   }
   #home h3 {
-    font-size: 12px;
+	font-size: 11px;
   }
 }
