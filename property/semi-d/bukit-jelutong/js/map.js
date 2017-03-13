@@ -12,6 +12,7 @@
     center: new google.maps.LatLng(3.107992,101.51252), // Your Location Coordinates
     disableDefaultUI: true,
     scrollwheel: false,
+	disableDoubleClickZoom: true,
 
     // How you would like to style the map. 
     // This is where you would paste any style found on Snazzy Maps.
