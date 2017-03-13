@@ -29,7 +29,7 @@
                 var image = 'img/marker.png';
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(10.731688,122.550535),
+                    position: new google.maps.LatLng(3.107992,101.51252),
                     animation: google.maps.Animation.DROP,
                     map: map,
                     title: 'My Office',
