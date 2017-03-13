@@ -9,7 +9,7 @@
     zoom: 12,
 
     // The latitude and longitude to center the map (always required)
-    center: new google.maps.LatLng(10.731688,122.550535), // Your Location Coordinates
+    center: new google.maps.LatLng(3.107992,101.51252), // Your Location Coordinates
     disableDefaultUI: true,
     scrollwheel: false,
 
