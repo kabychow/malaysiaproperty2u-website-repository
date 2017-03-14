@@ -141,14 +141,8 @@
 			// Note: If you're *not* using AJAX, get rid of this event listener.
 				$form.addEventListener('submit', function(event) {
 
-					event.stopPropagation();
-					event.preventDefault();
-
 					// Hide message.
 						$message._hide();
-
-					// Disable submit.
-						$submit.disabled = true;
 
 					// Process form.
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
@@ -158,11 +152,8 @@
 							// Reset form.
 								$form.reset();
 
-							// Enable submit.
-								$submit.disabled = false;
-
 							// Show message.
-								$message._show('success', 'Thank you!');
+								$message._show('success', 'Subscribed to the newsletter');
 								//$message._show('failure', 'Something went wrong. Please try again.');
 
 						}, 750);
