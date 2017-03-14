@@ -6,7 +6,7 @@
 
 /* Signup Form */
 
-	#signup-form > * {
+	#gform > * {
 		display: inline-block;
 		vertical-align: top;
 	}
