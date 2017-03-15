@@ -103,7 +103,7 @@
 					<!-- contact form outer row with centered text-->
 					<div class="col-md-10 col-md-offset-1">
 						<!-- col 10 with offset 1 to centered -->
-						<form id="gform" class="form" action="https://script.google.com/macros/s/AKfycbwEMiccboGGXXSR-l1c4-4WjoFUuG-U5amCuzBGRwmKB0JshtSd/exec" method="POST" target="dummyframe">
+						<form id="gform" class="form" action="https://script.google.com/macros/s/AKfycbwEMiccboGGXXSR-l1c4-4WjoFUuG-U5amCuzBGRwmKB0JshtSd/exec" method="POST" target="dummyframe" onSubmit="document.getElementById('callme').disabled = 'disabled';var currentTime = new Date().getTime();while(currentTime + 2800 >= new Date().getTime()){}window.open('../../../redirect.html','_self')">
 							<!-- form wrapper -->
 							<div class="row">
 								<!-- nested inner row -->
@@ -134,7 +134,7 @@
 							</div>
 							<!-- end nested inner row -->
 							<!-- Message Text area -->
-							<button type="submit" class="btn btn-primary tf-btn color" style="margin-top: 10px;">Call Me</button> <!-- Send button -->
+							<input id="callme" type="submit" value="Call Me" class="btn btn-primary tf-btn color" style="margin-top: 10px;" />
 						</form>
 						<!-- end form wrapper -->
 					</div>
