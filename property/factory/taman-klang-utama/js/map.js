@@ -6,10 +6,10 @@
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
                 var mapOptions = {
     // How zoomed in you want the map to start at (always required)
-    zoom: 12,
+    zoom: 13,
 
     // The latitude and longitude to center the map (always required)
-    center: new google.maps.LatLng(3.107992,101.51252), // Your Location Coordinates
+    center: new google.maps.LatLng(3.084728,101.413021), // Your Location Coordinates
     disableDefaultUI: true,
     scrollwheel: false,
 	disableDoubleClickZoom: true,
@@ -30,10 +30,10 @@
                 var image = 'img/marker.png';
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(3.107992,101.51252),
+                    position: new google.maps.LatLng(3.084728,101.413021),
                     animation: google.maps.Animation.DROP,
                     map: map,
-                    title: 'My Office',
+                    title: 'Factory',
                     icon: image,
                 });
                 

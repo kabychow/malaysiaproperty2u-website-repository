@@ -134,6 +134,7 @@ input[type="submit"] {
 }
 button[disabled],
 html input[disabled] {
+	background-color: inherit;
   cursor: default;
 }
 button::-moz-focus-inner,
