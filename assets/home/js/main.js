@@ -153,7 +153,7 @@
 								$form.reset();
 
 							// Show message.
-								$message._show('success', 'Subscribed to the newsletter');
+								$message._show('success', 'We will contact you as soon as possible');
 								//$message._show('failure', 'Something went wrong. Please try again.');
 
 						}, 750);
