@@ -119,6 +119,7 @@ ul.desc-points li:hover {
 .section-header h2 {
 	text-transform: uppercase;
 	line-height: 32px;
+	font-size: 25px;
 }
 .section-header h5 {
 	letter-spacing: 1px
