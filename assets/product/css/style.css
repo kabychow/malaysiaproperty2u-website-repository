@@ -104,8 +104,8 @@ ul.desc-points li {
 	-webkit-transition: 0.2s;
 	margin-left: 1em;
 }
-ul.desc-points li:before {
-  content: "✔";
+ul.desc-points li.tick:before {
+  content: "✓";
   padding-right: 5px;
 }
 ul.desc-points li:hover {
